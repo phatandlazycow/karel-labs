@@ -1,4 +1,19 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ harvest()
-numComments=1
+comment0.target=Harvester
+comment0.text=\r\n\ @author\ \:\r\n\ teacher\ \:\r\n\ due\ date\:\r\n
+comment1.params=
+comment1.target=void\ harvest()
+comment2.params=
+comment2.target=void\ harvest2()
+comment2.text=\r\n\ precondition\:\ robot\ is\ facing\ east\ one\ block\ away\ from\ a\ beeper\r\n\ postcondition\:\ robot\ is\ facing\ east\ two\ streets\ above\ start\ \r\n
+comment3.params=
+comment3.target=void\ repositionleft()
+comment4.params=
+comment4.target=void\ turnright()
+comment5.params=
+comment5.target=void\ repositionright()
+comment6.params=
+comment6.target=void\ harvestone()
+comment7.params=
+comment7.target=void\ pick()
+numComments=8

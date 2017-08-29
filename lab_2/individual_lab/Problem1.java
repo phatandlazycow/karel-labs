@@ -15,6 +15,52 @@ public class Problem1 extends Robot
     }
 
     public void setPins(){
-        
+        line1();
+        line2();
+        line3();
+        line4();
     }
+    public void turnright(){
+    turnLeft();
+    turnLeft();
+    turnLeft();
+    }
+    public void line1(){
+    move();
+    putBeeper();
+    turnright();
+    move();
+    turnLeft();
+    move();
+}
+    public void place(){
+        putBeeper();
+        move();
+        move();
+}
+    public void line2(){
+    turnLeft();
+    place();
+    putBeeper();
+    move();
+    turnright();
+    move();
+    }
+    public void line3(){
+    turnright();
+    place();
+    place();
+    putBeeper();
+    move();
+    turnLeft();
+    move();
+    }
+    public void line4(){
+    turnLeft();
+    place();
+    place();
+    place();
+    putBeeper();
+    }
+    
 }
